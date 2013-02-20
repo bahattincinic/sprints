@@ -1,5 +1,9 @@
 # Django Sprint'i Başvuru Kılavuzu
 
+## Ticketlar
+
+* https://code.djangoproject.com/ticket/16134
+
 ## Eklenebilecek fikirler
 
 ### Django Belgeleri
