@@ -11,4 +11,4 @@
   http://stackoverflow.com/questions/5481890/django-does-the-orm-support-the-sql-in-operator
 
   Django kullanıcıları için belki çok büyük bir eksik değil ama bir şekilde koda dokunması
-  gerekenler veya Dkango'ya yeni başlayanlar için referans niyetine bir liste eklemek güzel olabilir.
+  gerekenler veya Django'ya yeni başlayanlar için referans niyetine bir liste eklemek güzel olabilir.
