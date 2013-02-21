@@ -4,7 +4,7 @@
 
 Katılımcılardan, etkinliğe gelmeden önce geliştirme ortamlarını hazır etmelerini bekliyoruz. Etkinlik süresince bunun için ayrı zaman ayrılmayacaktır.
 
-Öncelikle github hesabınıza django kaynak kodunu forklayıp geliştirmeye başlayabilirsiniz.
+Öncelikle github hesabınıza django kaynak kodunu forklayıp geliştirmeye başlayabilirsiniz. Bu sayede yaptığınız değişiklikler için pull request göndermeniz daha kolay olacaktır.
 
 * Eğer Vagrant'a aşinaysanız ve üzerinde çalışacağınız ticketlar birden fazla Django sürümünü kapsıyorsa,
 *djangocore-box*'u kullanabilirsiniz: https://github.com/jphalip/djangocore-box
@@ -21,10 +21,16 @@ $ source venv/bin/activate.sh
 
 ```sh
 $ git clone git@github.com:<KULLANICI_ADINIZ>/django.git
-$ cd django
 $ mkvirtualenv djangosprint
 ```
 Sanal geliştirme ortamından çıkmak için *deactivate*, mevcut geliştirme ortamlarını listelemek için *workon*, "mkvirtualenv" ile oluşturduğunuz bir geliştirme ortamına geçmek içinse *workon <geliştirme ortamının adı>* komutlarını verebilirsiniz.
+
+* Gerek virtualenv, gerekse virtualenvwrapper kullandığınız çözümlerde 
+
+```sh
+$ pip install -e <django_dizini>
+```
+komutu ile lokalinizdeki django kodunu sanal geliştirme ortamınızda kullanmaya başlayabilirsiniz.
 
 ## Workflow
 
