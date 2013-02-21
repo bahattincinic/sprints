@@ -22,6 +22,10 @@ $ source venv/bin/activate.sh
 
 ### Django Belgeleri
 
+**Not:** Aşağıdaki maddelerle alakalı Django tracker'ında daha önce bir ticket açılmış olabilir.
+Üzerinde çalışmaya başlamadan önce, tracker'da arama yapıp, eğer ilgili bir ticket bulamadıysanız
+açmanız gerekiyor.
+
 * "Making queries" belgelerinde her karşılaştırma operatörünün örneği yok:
   https://docs.djangoproject.com/en/dev/topics/db/queries/#retrieving-specific-objects-with-filters
 
@@ -30,3 +34,8 @@ $ source venv/bin/activate.sh
 
   Django kullanıcıları için belki çok büyük bir eksik değil ama bir şekilde koda dokunması
   gerekenler veya Django'ya yeni başlayanlar için referans niyetine bir liste eklemek güzel olabilir.
+
+## İletişim
+
+Türkçe iletişim için Freenode üzerindeki `#pyistanbul`, resmi ve İngilizce iletişim için ise yine
+Freenode üzerindeki `#django-sprint` kanalını kullanabilirsiniz.
