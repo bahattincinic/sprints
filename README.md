@@ -32,6 +32,10 @@ $ pip install -e <django_dizini>
 ```
 komutu ile lokalinizdeki django kodunu sanal geliştirme ortamınızda kullanmaya başlayabilirsiniz.
 
+## Geliştirmeye başlamadan önce
+
+1. Nereden başlayacağınızı bilmiyorsanız öncelikle [Advice for new contributors](https://docs.djangoproject.com/en/dev/internals/contributing/new-contributors/) dökümanını okuyun.
+
 ## Workflow
 
 1. *Ticketlar* başlığından çalışmak istediğiniz bir ya da birden fazla ticket'ın numarasını Wiki'deki
