@@ -1,4 +1,4 @@
-# Django Sprint'i Başvuru Kılavuzu
+# Django Sprint Kılavuzu
 
 ## Geliştirme Ortamının Kurulması
 
