@@ -2,10 +2,14 @@
 
 ## Geliştirme Ortamının Kurulması
 
-Eğer Vagrant'a aşinaysanız ve üzerinde çalışacağınız ticketlar birden fazla Django sürümünü kapsıyorsa,
+Katılımcılardan, etkinliğe gelmeden önce geliştirme ortamlarını hazır etmelerini bekliyoruz. Etkinlik süresince bunun için ayrı zaman ayrılmayacaktır.
+
+Öncelikle github hesabınıza django kaynak kodunu forklayıp geliştirmeye başlayabilirsiniz.
+
+* Eğer Vagrant'a aşinaysanız ve üzerinde çalışacağınız ticketlar birden fazla Django sürümünü kapsıyorsa,
 *djangocore-box*'u kullanabilirsiniz: https://github.com/jphalip/djangocore-box
 
-Eğer Mac hipster'ı değilseniz elle kurulum için tek ihtiyacınız Virtualenv:
+* Eğer Mac fanboyu değilseniz elle kurulum için tek ihtiyacınız Virtualenv:
 
 ```sh
 $ git clone git@github.com:<KULLANICI_ADINIZ>/django.git
@@ -13,6 +17,14 @@ $ cd django
 $ virtualenv venv  # 1.7 ve üzeri sürümlerde --no-site-packages opsiyonunu kullanmanıza gerek yok
 $ source venv/bin/activate.sh
 ```
+* Virtualenvwrapper'ı kullanırsanız hayatınız daha da kolaylaşabilir:
+
+```sh
+$ git clone git@github.com:<KULLANICI_ADINIZ>/django.git
+$ cd django
+$ mkvirtualenv djangosprint
+```
+Sanal geliştirme ortamından çıkmak için *deactivate*, mevcut geliştirme ortamlarını listelemek için *workon*, "mkvirtualenv" ile oluşturduğunuz bir geliştirme ortamına geçmek içinse *workon <geliştirme ortamının adı>* komutlarını verebilirsiniz.
 
 ## Workflow
 
