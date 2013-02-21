@@ -1,10 +1,24 @@
 # Django Sprint'i Başvuru Kılavuzu
 
+## Geliştirme Ortamının Kurulması
+
+Eğer Vagrant'a aşinaysanız ve üzerinde çalışacağınız ticketlar birden fazla Django sürümünü kapsıyorsa,
+*djangocore-box*'u kullanabilirsiniz: https://github.com/jphalip/djangocore-box
+
+Eğer Mac hipster'ı değilseniz elle kurulum için tek ihtiyacınız Virtualenv:
+
+```sh
+$ git clone git@github.com:<KULLANICI_ADINIZ>/django.git
+$ cd django
+$ virtualenv venv  # 1.7 ve üzeri sürümlerde --no-site-packages opsiyonunu kullanmanıza gerek yok
+$ source venv/bin/activate.sh
+```
+
 ## Ticketlar
 
 * https://code.djangoproject.com/ticket/16134
 
-## Eklenebilecek fikirler
+## Eklenebilecek Fikirler
 
 ### Django Belgeleri
 
