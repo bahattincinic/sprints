@@ -31,11 +31,11 @@ $ source venv/bin/activate.sh
 
 ## Eklenebilecek Fikirler
 
-### Django Belgeleri
-
 **Not:** Aşağıdaki maddelerle alakalı Django tracker'ında daha önce bir ticket açılmış olabilir.
 Üzerinde çalışmaya başlamadan önce, tracker'da arama yapıp, eğer ilgili bir ticket bulamadıysanız
 açmanız gerekiyor.
+
+### Django Belgeleri
 
 * "Making queries" belgelerinde her karşılaştırma operatörünün örneği yok:
   https://docs.djangoproject.com/en/dev/topics/db/queries/#retrieving-specific-objects-with-filters
