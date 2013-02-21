@@ -16,7 +16,7 @@ $ source venv/bin/activate.sh
 
 ## Workflow
 
-1. *Ticketlar* başlığından çalışmak istediğiniz bir ya da birden fazla ticket'ın numarası Wiki'deki
+1. *Ticketlar* başlığından çalışmak istediğiniz bir ya da birden fazla ticket'ın numarasını Wiki'deki
    [İş Bölümü](https://github.com/pyistanbul/sprints/wiki/%C4%B0%C5%9F-B%C3%B6l%C3%BCm%C3%BC)
    sayfasında yazmanız birden fazla kişinin aynı ticket üzerinde çalışmasını engellemek adına faydalı
    olacaktır.
