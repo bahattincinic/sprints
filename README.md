@@ -47,7 +47,7 @@ başlayabilirsiniz.
 * Gerek virtualenv, gerekse virtualenvwrapper kullandığınız çözümlerde
 
   ```sh
-  $ pip install -e <django_dizini>
+  $ pip install -e <DJANGO_DIZINI>
   ```
 
   komutu ile lokalinizdeki Django kodunu sanal geliştirme ortamınızda
