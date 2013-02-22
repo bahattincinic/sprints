@@ -56,8 +56,14 @@ başlayabilirsiniz.
 
 ## Geliştirmeye başlamadan önce
 
-1. Nereden başlayacağınızı bilmiyorsanız öncelikle
+1. Daha önce bir açık kaynak projenin geliştirilmesinde görev almadıysanız ya
+   da Django'nun geliştirme sürecine yabancıysanız öncelikle
    [Advice for new contributors][dj-newbie] belgesini okuyun.
+
+### Önemli Bağlantılar
+
+* [Django kaynak kodu](https://github.com/django/django)
+* [Django tracker](https://code.djangoproject.com/query)
 
 [dj-newbie]: https://docs.djangoproject.com/en/dev/internals/contributing/new-contributors/
 
