@@ -79,7 +79,7 @@ belirtmeniz organizasyon için faydalı olacaktır.
 
 * https://code.djangoproject.com/ticket/16134
 
-### Faydalı Track sorguları
+### Faydalı Trac sorguları
 
 * [TBA]
 
