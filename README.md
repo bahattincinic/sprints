@@ -17,8 +17,7 @@ başlayabilirsiniz.
 [dj-gh]: https://github.com/django/django
 [dj-box]: https://github.com/jphalip/djangocore-box
 
-* Eğer Mac fanboyu değilseniz elle kurulum için tek ihtiyacınız
-  [Virtualenv][dj-venv]:
+* Elle kurulum için tek ihtiyacınız [Virtualenv][dj-venv]:
 
   ```sh
   $ git clone git@github.com:<KULLANICI_ADINIZ>/django.git
