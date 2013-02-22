@@ -85,29 +85,17 @@ eklemeninizi bekliyoruz.
 
 * https://code.djangoproject.com/ticket/16134
 
-### Faydalı Trac sorguları
+### Eklenebilecek Fikirler
 
-* [TBA]
+Django tracker'ında bulunmayan herhangi bir fikriniz varsa ya da boş zamanı
+olan başka bir katılımcının üzerinde çalışmasını istiyorsanız
+[Fikirler][dj-ideas] sayfasına ekleyebilirsiniz.
 
+[dj-ideas]: https://github.com/pyistanbul/sprints/wiki/Fikirler
 
-## Eklenebilecek Fikirler
+### Faydalı Trac Sorguları
 
-**Not:** Aşağıdaki maddelerle alakalı Django tracker'ında daha önce bir ticket
-açılmış olabilir. Üzerinde çalışmaya başlamadan önce, tracker'da arama yapıp,
-eğer ilgili bir ticket bulamadıysanız açmanız gerekiyor.
-
-### Django Belgeleri
-
-* "Making queries" belgelerinde her karşılaştırma operatörünün örneği yok:
-  https://docs.djangoproject.com/en/dev/topics/db/queries/#retrieving-specific-objects-with-filters
-
-  Mesela "in" için arama yapılmak istenildiğinde ancak StackOverflow'dan
-  görebiliyorsunuz:
-  http://stackoverflow.com/questions/5481890/django-does-the-orm-support-the-sql-in-operator
-
-  Django kullanıcıları için belki çok büyük bir eksik değil ama bir şekilde
-  koda dokunması gerekenler veya Django'ya yeni başlayanlar için referans
-  niyetine bir liste eklemek güzel olabilir.
+* [Eklenecek]
 
 
 ## İletişim
