@@ -64,8 +64,9 @@ başlayabilirsiniz.
 
 ## Workflow
 
-**Not:** Bu belgede listelenen ticketlarda biri üzerinde çalışmak zorunda
-değilsiniz.
+**Not:** Bu belgede listelenen ticketlardan biri üzerinde çalışmak zorunda
+değilsiniz ancak ne üzerinde çalıştığınızı [İş Bölümü][dj-is] sayfasında
+belirtmeniz organizasyon için faydalı olacaktır.
 
 1. Çalışmak istediğiniz bir ya da birden fazla ticket'ın numarasını Wiki'deki
    [İş Bölümü][dj-is] sayfasında yazmanız birden fazla kişinin aynı ticket
