@@ -87,7 +87,9 @@ eklemeninizi bekliyoruz.
 
 ### Eklenebilecek Fikirler
 
-Django tracker'ında bulunmayan herhangi bir fikriniz varsa ya da boş zamanı
+* [Güncel Fikirler][dj-ideas]
+
+**Not:** Django tracker'ında bulunmayan herhangi bir fikriniz varsa ya da boş zamanı
 olan başka bir katılımcının üzerinde çalışmasını istiyorsanız
 [Fikirler][dj-ideas] sayfasına ekleyebilirsiniz.
 
@@ -95,7 +97,14 @@ olan başka bir katılımcının üzerinde çalışmasını istiyorsanız
 
 ### Faydalı Trac Sorguları
 
-* [Eklenecek]
+* [Unit test eksiği olan ticketlar][dj-unittest]
+* [Merge edilmesi için ilgili belgelerin güncellenmesi veya eklenmesi gereken
+  ticketlar][dj-doc]
+
+[dj-unittest]:
+https://code.djangoproject.com/query?status=!closed&needs_tests=1&stage=Accepted&order=priority
+[dj-doc]:
+https://code.djangoproject.com/query?status=!closed&needs_better_patch=0&needs_tests=0&needs_docs=1&has_patch=1&stage=Accepted&order=priority
 
 
 ## İletişim
