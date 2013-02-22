@@ -71,8 +71,8 @@ başlayabilirsiniz.
 ## Workflow
 
 **Not:** Bu belgede listelenen ticketlardan biri üzerinde çalışmak zorunda
-değilsiniz ancak ne üzerinde çalıştığınızı [İş Bölümü][dj-is] sayfasında
-belirtmeniz organizasyon için faydalı olacaktır.
+değilsiniz ancak ne üzerinde çalıştığınızı [İş Bölümü][dj-is] sayfasına
+eklemeninizi bekliyoruz.
 
 1. Çalışmak istediğiniz bir ya da birden fazla ticket'ın numarasını Wiki'deki
    [İş Bölümü][dj-is] sayfasında yazmanız birden fazla kişinin aynı ticket
