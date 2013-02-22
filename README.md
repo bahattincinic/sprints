@@ -6,18 +6,19 @@ Katılımcılardan, etkinliğe gelmeden önce geliştirme ortamlarını hazır
 etmelerini bekliyoruz. Etkinlik süresince bunun için ayrı zaman
 ayrılmayacaktır.
 
-Öncelikle GitHub hesabınıza Django kaynak kodunu forklayıp geliştirmeye
-başlayabilirsiniz. Bu sayede yaptığınız değişiklikler için pull request
-göndermeniz daha kolay olacaktır.
+Öncelikle GitHub üzerinde [Django kaynak kodunu][dj-gh] forklayıp geliştirmeye
+başlayabilirsiniz.
 
 * Eğer Vagrant'a aşinaysanız; üzerinde çalışacağınız ticketlar birden fazla
   Django sürümünü kapsıyorsa veya ORM gibi birden fazla veritabanı kurulumu
   gerektiren bir ticket üzerinde çalışıyorsanız [djangocore-box][dj-box]'u
   kullanabilirsiniz.
 
+[dj-gh]: https://github.com/django/django
 [dj-box]: https://github.com/jphalip/djangocore-box
 
-* Eğer Mac fanboyu değilseniz elle kurulum için tek ihtiyacınız Virtualenv:
+* Eğer Mac fanboyu değilseniz elle kurulum için tek ihtiyacınız
+  [Virtualenv][dj-venv]:
 
   ```sh
   $ git clone git@github.com:<KULLANICI_ADINIZ>/django.git
@@ -27,17 +28,21 @@ göndermeniz daha kolay olacaktır.
   $ source venv/bin/activate.sh
   ```
 
-* Virtualenvwrapper'ı kullanırsanız hayatınız daha da kolaylaşabilir:
+[dj-venv]: http://www.virtualenv.org/
+
+* [Virtualenvwrapper][dj-vw]'ı kullanırsanız hayatınız daha da kolaylaşabilir:
 
   ```sh
   $ git clone git@github.com:<KULLANICI_ADINIZ>/django.git
   $ mkvirtualenv djangosprint
   ```
 
-  Sanal geliştirme ortamından çıkmak için *deactivate*, mevcut geliştirme
-  ortamlarını listelemek için *workon*, "mkvirtualenv" ile oluşturduğunuz bir
-  geliştirme ortamına geçmek içinse *workon <geliştirme ortamının adı>*
+  Sanal geliştirme ortamından çıkmak için `deactivate`, mevcut geliştirme
+  ortamlarını listelemek için `workon`, `mkvirtualenv` ile oluşturduğunuz bir
+  geliştirme ortamına geçmek içinse `workon <geliştirme ortamının adı>`
   komutlarını verebilirsiniz.
+
+[dj-vw]: http://virtualenvwrapper.readthedocs.org/en/latest/
 
 * Gerek virtualenv, gerekse virtualenvwrapper kullandığınız çözümlerde
 
@@ -48,6 +53,7 @@ göndermeniz daha kolay olacaktır.
   komutu ile lokalinizdeki Django kodunu sanal geliştirme ortamınızda
   kullanmaya başlayabilirsiniz.
 
+
 ## Geliştirmeye başlamadan önce
 
 1. Nereden başlayacağınızı bilmiyorsanız öncelikle
@@ -55,14 +61,18 @@ göndermeniz daha kolay olacaktır.
 
 [dj-newbie]: https://docs.djangoproject.com/en/dev/internals/contributing/new-contributors/
 
+
 ## Workflow
 
-1. *Ticketlar* başlığından çalışmak istediğiniz bir ya da birden fazla
-   ticket'ın numarasını Wiki'deki [İş Bölümü][dj-is] sayfasında yazmanız birden
-   fazla kişinin aynı ticket üzerinde çalışmasını engellemek adına faydalı
-   olacaktır.
+**Not:** Bu belgede listelenen ticketlarda biri üzerinde çalışmak zorunda
+değilsiniz.
+
+1. Çalışmak istediğiniz bir ya da birden fazla ticket'ın numarasını Wiki'deki
+   [İş Bölümü][dj-is] sayfasında yazmanız birden fazla kişinin aynı ticket
+   üzerinde çalışmasını engellemek adına faydalı olacaktır.
 
 [dj-is]: https://github.com/pyistanbul/sprints/wiki/%C4%B0%C5%9F-B%C3%B6l%C3%BCm%C3%BC
+
 
 ## Ticketlar
 
@@ -71,6 +81,7 @@ göndermeniz daha kolay olacaktır.
 ### Faydalı Track sorguları
 
 * [TBA]
+
 
 ## Eklenebilecek Fikirler
 
@@ -90,6 +101,7 @@ eğer ilgili bir ticket bulamadıysanız açmanız gerekiyor.
   Django kullanıcıları için belki çok büyük bir eksik değil ama bir şekilde
   koda dokunması gerekenler veya Django'ya yeni başlayanlar için referans
   niyetine bir liste eklemek güzel olabilir.
+
 
 ## İletişim
 
