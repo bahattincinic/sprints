@@ -83,6 +83,9 @@ eklemeninizi bekliyoruz.
 ## Ticketlar
 
 * https://code.djangoproject.com/ticket/16134
+* https://code.djangoproject.com/ticket/16350
+* https://code.djangoproject.com/ticket/16350
+* https://code.djangoproject.com/ticket/15654
 
 ### Eklenebilecek Fikirler
 
