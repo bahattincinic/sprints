@@ -82,6 +82,7 @@ eklemeninizi bekliyoruz.
 
 ## Ticketlar
 
+* ["Easy Picking" tickets](https://code.djangoproject.com/query?status=!closed&easy=1)
 * https://code.djangoproject.com/ticket/16134
 * https://code.djangoproject.com/ticket/16350
 * https://code.djangoproject.com/ticket/16350
