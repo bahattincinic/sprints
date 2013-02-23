@@ -115,3 +115,13 @@ https://code.djangoproject.com/query?status=!closed&needs_better_patch=0&needs_t
 Türkçe iletişim için Freenode üzerindeki `#pyistanbul`, resmi ve İngilizce
 iletişim için ise yine Freenode üzerindeki `#django-sprint` kanalını
 kullanabilirsiniz.
+
+IRC için komutlara ulaşmak için [bu bağlantıyı](http://meta.wikimedia.org/wiki/IRC_instructions#Register_your_nickname.2C_identify.2C_and_enforce) kullanabilirsiniz. Freenode'a girmek için değil ama kanallara girebilmek için kayıtlı bir nick gerekmektedir.
+    
+    $ /msg nickserv register [password] [your@email.address.com]
+
+ile kullanıcı adınızı kaydedebilir, daha sonra kanal içerisinde 
+ 
+    /msg nickserv identify [password]
+
+ile giriş yapabilirsiniz. İlk kayıtta e-posta adresinize gelen komutu IRC üzerinde çalıştırarak e-postanızı onaylayabilirsiniz.
