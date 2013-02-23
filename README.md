@@ -83,6 +83,7 @@ eklemeninizi bekliyoruz.
 ## Ticketlar
 
 * ["Easy Pickings" tickets](https://code.djangoproject.com/query?status=!closed&easy=1)
+* ["Easy Pickings" tickets whose owner is nobody or anonymous](https://code.djangoproject.com/query?owner=nobody&status=new&easy=1&or&status=assigned&status=new&owner=anonymous&easy=1&col=id&col=summary&col=status&col=owner&col=type&col=component&order=priority)
 * https://code.djangoproject.com/ticket/16134
 * https://code.djangoproject.com/ticket/16350
 * https://code.djangoproject.com/ticket/16350
