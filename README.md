@@ -118,7 +118,7 @@ kullanabilirsiniz.
 
 IRC için komutlara ulaşmak için [bu bağlantıyı](http://meta.wikimedia.org/wiki/IRC_instructions#Register_your_nickname.2C_identify.2C_and_enforce) kullanabilirsiniz. Freenode'a girmek için değil ama kanallara girebilmek için kayıtlı bir nick gerekmektedir.
     
-    $ /msg nickserv register [password] [your@email.address.com]
+    /msg nickserv register [password] [your@email.address.com]
 
 ile kullanıcı adınızı kaydedebilir, daha sonra kanal içerisinde 
  
